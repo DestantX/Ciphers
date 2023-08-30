@@ -29,7 +29,7 @@ namespace CipherBase.Services
             return Math.Abs(index - key);
 
         }
-        //щось змінив
+        //щось прибрав
         public string decode(string text, string key = null)
         {
             string result = "";

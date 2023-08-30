@@ -48,7 +48,7 @@ namespace CipherBase.Services
 
             return result;
         }
-
+        //щось тут написав
         public string encode(string text, string key = null)
         {
             int keyInt = Convert.ToInt32(((string)key));
